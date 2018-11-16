@@ -1,9 +1,0 @@
-language: csharp
-solution: Playground.sln
-mono: none
-dotnet: 2.1.500
-install:
-- dotnet restore
-
-script:
- - dotnet build
