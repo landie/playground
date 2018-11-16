@@ -2,6 +2,8 @@ language: csharp
 solution: Playground.sln
 mono: none
 dotnet: 2.1.500
+install:
+- dotnet restore
+
 script:
- - dotnet restore
- - dotnet run --project .\ConsoleApp1\ConsoleApp1.csproj
+ - dotnet build
