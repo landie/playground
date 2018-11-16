@@ -4,4 +4,4 @@ mono: none
 dotnet: 2.1.500
 script:
  - dotnet restore
- - dotnet run
+ - dotnet run --project .\ConsoleApp1\ConsoleApp1.csproj
